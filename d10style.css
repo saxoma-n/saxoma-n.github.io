@@ -1,0 +1,68 @@
+@font-face {
+    font-family: Inconsolata;
+    src: url(fonts/Inconsolata-VariableFont_wdth\,wght.ttf);
+}
+
+body {
+    font-family: Inconsolata;
+    background-image: url(emojis/lmao.png);
+}
+
+button:hover {
+    background-color: rgb(76, 222, 91);
+    font-size: 1.1em;
+}
+
+button:active {
+    background-color: black;
+    color: rgb(76, 222, 91);
+    font-size: 1.1em;
+}
+
+header {
+    text-shadow: 3px 3px 1px red, -3px -3px 1px blue, 4px -2px 1px greenyellow;
+}
+
+#e1 {
+    height: 200px;
+    float: left;
+    margin-right: 10px;
+}
+
+#e2 {
+    height: 200px;
+    margin-top: 400px;
+    right: 10px;
+    float: right;
+    margin-left: 10px;
+}
+
+#e3 {
+    height: 200px;
+    position: fixed;
+    top: 300px;
+    left: 400px;
+}
+
+#e4 {
+    height: 200px;
+    position: fixed;
+    top: 200px;
+    right: 150px;
+}
+
+#e5 {
+    height: 200px;
+    position: sticky;
+    top: 50px;
+    left: 550px;
+    margin-top: 100px;
+}
+
+#e6 {
+    height: 200px;
+    position: relative;
+    top: 700px;
+    float: right;
+    margin-right: 20px;
+}

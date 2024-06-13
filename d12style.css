@@ -1,0 +1,86 @@
+@font-face {
+    font-family: Homenaje;
+    src: url(fonts/Homenaje-Regular.ttf);
+}
+
+body {
+    background-color: rgb(145, 56, 217);
+    font-family: Homenaje;
+}
+
+.pagination {
+    text-align: center;
+}
+
+.pagination a {
+    color: black;
+    text-decoration: none;
+    padding: 8px 15px;
+    display: inline-block
+}
+
+.pagination a.active {
+    background-color: rgb(89, 215, 75);
+    font-weight: bold;
+    border-radius: 10px;
+}
+
+.pagination a:hover:not(.active) {
+    background-color: rgb(178, 178, 178);
+    border-radius: 10px;
+}
+
+li:nth-child(3n+1) {
+    text-shadow: 3px 3px 1px red, -3px -3px 1px blue, 4px -2px 1px greenyellow;
+}
+
+li:hover {
+    background-color: aliceblue;
+}
+
+#weird {
+    text-shadow: -3px 0px 1px rosybrown, -1px 5px 1px orange, 2px -4px 1px yellow;
+}
+
+#bug::first-letter {
+    text-shadow: 2px 4px, 4px 6px, 6px 9px, 8px 12px, 10px 15px;
+}
+
+.box {
+    height: 200px;
+    width: 200px;
+    overflow: scroll;
+    display: inline-block;
+}
+
+#d2 {
+    left: 100px
+}
+
+#d3 {
+    left: 200px
+}
+
+#d4 {
+    left: 300px
+}
+
+#d5 {
+    left: 400px
+}
+
+#d6 {
+    left: 500px
+}
+
+#d7 {
+    left: 600px
+}
+
+#d8 {
+    left: 700px
+}
+
+#d9 {
+    left: 800px
+}

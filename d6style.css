@@ -1,0 +1,52 @@
+@font-face {
+    font-family: Homenaje;
+    src: url(fonts/Homenaje-Regular.ttf);
+}
+
+@font-face {
+    font-family: "Comic Sans";
+    src: url(fonts/COMIC.TTF);
+}
+
+@font-face {
+    font-family: "Comic Serif";
+    src: url(fonts/comic-serif.ttf);
+}
+
+body {
+    background-color: rgb(73, 151, 241);
+}
+
+button:hover {
+    background-color: rgb(76, 222, 91);
+    font-size: 1.1em;
+}
+
+button:active {
+    background-color: black;
+    color: rgb(76, 222, 91);
+    font-size: 1.1em;
+}
+
+h1 {
+    font-family: Impact;
+}
+
+header {
+    font-family: sans-serif;
+}
+
+main {
+    font-family: Homenaje;
+    font-size: 1.25em;
+}
+
+#csans {
+    font-family: "Comic Sans";
+    color: greenyellow;
+}
+
+#cserif {
+    font-family: "Comic Serif";
+    color: rgb(151, 0, 0);
+}

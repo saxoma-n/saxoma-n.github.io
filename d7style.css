@@ -1,0 +1,45 @@
+@font-face {
+    font-family: Homenaje;
+    src: url(fonts/Homenaje-Regular.ttf);
+}
+
+@font-face {
+    font-family: "Inconsolata";
+    src: url(fonts/Inconsolata-VariableFont_wdth\,wght.ttf);
+}
+
+body {
+    background-color: rgb(73, 151, 241);
+}
+
+button:hover {
+    background-color: rgb(76, 222, 91);
+    font-size: 1.1em;
+}
+
+button:active {
+    background-color: black;
+    color: rgb(76, 222, 91);
+    font-size: 1.1em;
+}
+
+h1 {
+    font-family: Impact;
+    text-shadow: 3px 3px 5px rgb(181, 181, 181);
+}
+
+header {
+    font-family: sans-serif;
+    border: 5px dashed rgb(76, 222, 91);
+}
+
+main {
+    font-family: Homenaje;
+    font-size: 1.25em;
+}
+
+#hrlp {
+    text-shadow: 3px 3px 1px red, -3px -3px 1px blue, 4px -2px 1px greenyellow;
+    font-size: 2em;
+    font-family: Inconsolata;
+}

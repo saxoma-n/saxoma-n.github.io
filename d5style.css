@@ -1,0 +1,39 @@
+body {
+    background-color: aqua;
+}
+
+button:hover {
+    background-color: rgb(76, 222, 91);
+    font-size: 1.1em;
+}
+
+button:active {
+    background-color: black;
+    color: rgb(76, 222, 91);
+    font-size: 1.1em;
+}
+
+p {
+    color: blue;
+    background-color: bisque;
+}
+
+header {
+    color: goldenrod;
+    background-color: purple;
+}
+
+.trash {
+    color: greenyellow;
+    background-color: brown;
+}
+
+#t1 {
+    color: black;
+    background-color: white;
+}
+
+footer {
+    color: purple;
+    background-color: goldenrod;
+}

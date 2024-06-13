@@ -1,0 +1,10 @@
+button:hover {
+    background-color: rgb(76, 222, 91);
+    font-size: 1.1em;
+}
+
+button:active {
+    background-color: black;
+    color: rgb(76, 222, 91);
+    font-size: 1.1em;
+}
